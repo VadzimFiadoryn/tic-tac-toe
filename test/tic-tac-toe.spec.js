@@ -4,7 +4,6 @@ describe('TicTacToe', () => {
     describe('#getCurrentPlayerSymbol', () => {
         it('should return correct player symbol', () => {
             let game;
-
             game = new TicTacToe();
             expect(game.getCurrentPlayerSymbol()).to.equal('x')
 
